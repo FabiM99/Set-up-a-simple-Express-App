@@ -42,6 +42,7 @@ app.post("/api/planets", (req, res) => {
  res.status(201).json({msg: "The planet were recieved"})
 })
 
+
 app.listen(port, () => {
   console.log(`Example app listening on port http://localhost:${port}`)
 })
